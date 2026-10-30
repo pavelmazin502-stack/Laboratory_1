@@ -1,0 +1,4 @@
+ARRAY myarr 2 10 20
+STACK mystack 1 item1
+QUEUE myqueue 0
+TREE mytree 3 A B C

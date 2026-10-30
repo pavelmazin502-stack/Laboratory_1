@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "build-cpp",
+      "command": "g++",
+      "args": [
+        "-g",
+        "main.cpp",
+        "Array.cpp",
+        "-o",
+        "lab_program"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Компиляция файлов лабораторной"
+    }
+  ]
+}
